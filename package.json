@@ -1,0 +1,28 @@
+{
+  "name": "end_to_end_testing",
+  "version": "1.0.0",
+  "description": "A project to pratice onto testing",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon main.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Kevin Coulibaly",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "25.1.0",
+    "nodemon": "2.0.2",
+    "supertest": "4.0.2"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "express": "4.17.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
