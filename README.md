@@ -26,7 +26,9 @@ $> cd tennis-players-api
 
 ### Automated tests
 
-There are few tests to ensure API behaviour, run the following command to make sure everything works as planned `$>npm run test`
+There are few tests to ensure API behaviour, run the following command to make sure everything works as planned
+
+`$>npm run test`
 
 ### Manually
 
@@ -36,6 +38,8 @@ Two routes are currently available:
 
 - **/players**: which returns an array of json map of players ordered by id ascending
 
+`$> curl http://localhost:3030/players`
+
 - **/players/:id**: which returns a json map of one player from its id, or a 404 response if no player could be found
 
-`$> curl http://localhost:3030/players`
+`$> curl http://localhost:3030/players/17`
