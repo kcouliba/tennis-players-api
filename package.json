@@ -4,6 +4,7 @@
   "description": "A project to pratice onto testing",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js",
     "start:dev": "nodemon main.js",
     "test": "jest --testTimeout=10000 --detectOpenHandles",
     "test:watch": "jest --watch --testTimeout=10000 --detectOpenHandles"
